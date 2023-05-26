@@ -21,7 +21,7 @@ int main(int argc, char* argv[]){
             printf("usage: counter [h] <time>\n");
             printf("example:\n");
             printf("  counter               to incremently count\n");
-            printf("  counter h            show this log\n");
+            printf("  counter h             show this log\n");
             printf("  counter 120           count 120 seconds decremently\n");
         }else if (is_numeric(argv[1])) {
             time_t t;
